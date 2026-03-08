@@ -6,6 +6,36 @@ Built from a real training run that produced a solarpunk aesthetic LoRA in ~52 m
 
 ---
 
+## Example: Solarpunk Style LoRA
+
+### Training data (sample)
+
+<table>
+<tr>
+<td><img src="assets/training/t01-woodruff-garden.jpg" width="180"/></td>
+<td><img src="assets/training/t02-naturalistic-garden.jpg" width="180"/></td>
+<td><img src="assets/training/t03-solarpunk-illustration.jpg" width="180"/></td>
+<td><img src="assets/training/t04-urban-green.jpg" width="180"/></td>
+</tr>
+<tr>
+<td><img src="assets/training/t05-community-plants.jpg" width="180"/></td>
+<td><img src="assets/training/t06-downtown-solarpunk.jpg" width="180"/></td>
+<td><img src="assets/training/t07-greenhouse.jpg" width="180"/></td>
+<td><img src="assets/training/t08-fantasy-garden.jpg" width="180"/></td>
+</tr>
+</table>
+
+### Outputs after 1500 steps
+
+| | |
+|---|---|
+| <img src="assets/outputs/o01-apartment-jungle.jpg" width="360"/> | <img src="assets/outputs/o02-community-garden.jpg" width="360"/> |
+| `solarpunk_style, apartment complex teeming with tropical plants, city electrical wires running everywhere, chaotic, JRPG whimsy, sun shining through canopy` | `solarpunk_style, a solarpunk community garden, lush greenery, solar panels, warm golden light, futuristic yet organic architecture` |
+| <img src="assets/outputs/o03-valley-sunset.jpg" width="360"/> | <img src="assets/outputs/o04-valley-evening.jpg" width="360"/> |
+| `solarpunk_style, a vast valley with a setting sun in the distance, mountains on both sides, vibrant perennials in the foreground in clear focus` | `solarpunk_style, a vast valley in the early evening, mountains on both sides, vibrant perennials in the foreground in clear focus, a river off to the side` |
+
+---
+
 ## Before You Start
 
 **You'll need:**
